@@ -69,6 +69,10 @@ html,body {
     text-align: left;
 }
 
+.col-right address {
+    margin-bottom: 0;
+}
+
 .footer {
     text-align: center;
     background-color: rgb(53, 60, 71);
