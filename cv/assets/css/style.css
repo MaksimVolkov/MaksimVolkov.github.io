@@ -48,6 +48,9 @@ html,body {
 .col-right {
     padding-left: 0!important;
 }
+.container {
+    width-min: 970px;
+} 
 .container h3 {
     margin-bottom: 20px;
     text-transform: uppercase;
