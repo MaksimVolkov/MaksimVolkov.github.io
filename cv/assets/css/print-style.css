@@ -3,6 +3,14 @@
     a[href]:after {
         content: none !important;
     }
+    @page {
+        /* margin-top: 0; */
+        /* margin-bottom: 0; */
+    }
+    body{
+        padding-top: 72px;
+        padding-bottom: 72px ;
+    }
     .header > h1    { margin-top: 35px; }
     .header > span  { margin: 0 auto; top: -35px; }
     
@@ -13,7 +21,7 @@
     .footer {
         background: repeating-linear-gradient(-60deg, rgb(202, 202, 202) 0, rgb(202, 202, 202) 1px, transparent 1px, transparent 5px)!important;
     }
-    
+
     .header > h1,
     .header > span, 
     .footer > h3,
