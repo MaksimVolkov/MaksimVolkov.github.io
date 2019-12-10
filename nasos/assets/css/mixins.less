@@ -1,0 +1,42 @@
+
+.button-hover-mixin(@bord-color,@bg-color) {
+
+	&:hover {
+		border: 1px solid @bord-color;
+		background-color: @bg-color;
+	}
+}
+.border-radius(@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+.transform(@function, @value ) {
+	-webkit-transform: @function((@value));
+		 -moz-transform: @function((@value));
+			-ms-transform: @function((@value));
+			 -o-transform: @function((@value));
+					transform: @function((@value));
+}
+.transform() {
+	-webkit-transform: matrix(a, c, b, d, tx, ty); /* Safari 3.1+ и Chrome 2.0+ */
+		 -moz-transform: matrix(a, c, b, d, tx, ty); /* Firefox 3.5+ */ 
+			-ms-transform: matrix(a, c, b, d, tx, ty); /* IE 9.0 */
+			 -o-transform: matrix(a, c, b, d, tx, ty); /* Opera 10.5+ */
+					transform: matrix(a, c, b, d, tx, ty);
+}
+.border ( @w-top, @w-right, @w-bottom, @w-left ) {
+	border-top-width: 	 @w-top;
+    border-right-width:  @w-right;
+    border-bottom-width: @w-bottom;
+    border-left-width: 	 @w-left;
+    border-color: #7e7e7e;
+	border-style: solid;
+}
+
+.box-shadow (@string) {
+	-webkit-box-shadow: 0 0 @string #7e7e7e;
+	-moz-box-shadow:    0 0 @string #7e7e7e;
+	box-shadow:         0 0 @string #7e7e7e;
+}
+	
