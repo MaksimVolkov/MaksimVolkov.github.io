@@ -34,9 +34,7 @@
 
 
     /* progress-bar */
-    .progress {
-        position: relative;
-    }
+    .progress { position: relative; }
     .progress:before {
         display: block;
         content: '';
@@ -56,16 +54,8 @@
         z-index: 1;
         border-bottom: 2rem solid rgb(53, 60, 71);
     }
-    .progress-bar-success {
-        border-bottom-color: #67c600;
-    }
-    .progress-bar-info {
-        border-bottom-color: #5bc0de;
-    }
-    .progress-bar-warning {
-        border-bottom-color: #f0a839;
-    }
-    .progress-bar-danger {
-        border-bottom-color: #ee2f31;
-    }
+    .progress-bar-success { border-bottom-color: #67c600; }
+    .progress-bar-info { border-bottom-color: #5bc0de; }
+    .progress-bar-warning { border-bottom-color: #f0a839; }
+    .progress-bar-danger { border-bottom-color: #ee2f31; }
 }
