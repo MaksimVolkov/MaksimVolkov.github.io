@@ -30,8 +30,38 @@
         background-color: white !important;
         background: white !important;
     }
+    .size-box{
+        margin: 0;
+        padding: 0;
+    }
+    .w10{
+        width: 10px;
+        height: 20px;
+        float: left;
+    }
+    .cblack{
+        background: repeating-linear-gradient(
+                    -60deg,
+                    rgb(202, 202, 202) 0,
+                    rgb(202, 202, 202) 1px,
+                    transparent 1px,
+                    transparent 5px
+                )!important;
+    }
+    .cwhite{
+        background: repeating-linear-gradient(
+                -60deg,
+                rgb(202, 202, 202) 0,
+                rgb(202, 202, 202) 5px,
+                transparent 1px,
+                transparent 5px
+        )!important;
+    }
 
-
+    /* profile-photo */
+    .profile-photo > img {
+        margin: 0 0 0 40px;
+    }
 
     /* progress-bar */
     .progress { position: relative; }
