@@ -22,7 +22,7 @@ html,body {
 .header > span  {
     position: relative;
     display: block;
-    width: 150px;
+    width: 200px;
     padding: 10px;
     margin: 0 auto;
     top: -35px;
@@ -103,17 +103,17 @@ html,body {
     display: inline-block;
     margin-top: 30px;
     margin-bottom: 20px;
-    padding: 0.7em;   
-    text-align: center; 
+    padding: 0.5em 0.8em;
+    text-align: center;
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 2em;
     border: 2px solid white;
     border-radius: 4px;
 }
 .footer > span  {
     position: relative;
     display: block;
-    width: 130px;
+    width: 186px;
     padding: 5px;
     margin: 0 auto;
     top: -35px;

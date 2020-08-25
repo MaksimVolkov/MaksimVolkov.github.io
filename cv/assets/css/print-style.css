@@ -8,7 +8,7 @@
         /* margin-bottom: 0; */
     }
     body{
-        padding-top: 72px;
+        padding-top: 0;
         padding-bottom: 72px ;
     }
     .header > h1    { margin-top: 35px; }
@@ -29,6 +29,19 @@
         border: 2px solid black !important;
         background-color: white !important;
         background: white !important;
+    }
+
+    .header > h1 {
+
+    }
+    .header > span {
+
+    }
+    .footer > h3 {
+
+    }
+    .footer > span {
+
     }
     .size-box{
         margin: 0;
