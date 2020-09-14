@@ -1,2 +1,2 @@
 # MaksimVolkov.github.io
-my_web_book
+my_page
