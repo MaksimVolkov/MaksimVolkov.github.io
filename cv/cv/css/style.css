@@ -22,7 +22,7 @@ html,body {
 .header > span  {
     position: relative;
     display: block;
-    width: 150px;
+    width: 200px;
     padding: 10px;
     margin: 0 auto;
     top: -35px;
@@ -33,12 +33,31 @@ html,body {
     color: black;
     background-color: white;
 }
+
+.pt-5 { padding-top: 5px; }
+.pr-5 { padding-right: 5px; }
+.pb-5 { padding-bottom: 5px; }
+.pl-5 { padding-left: 5px; }
+
+.pt-10 { padding-top: 10px; }
+.pr-10 { padding-right: 10px; }
+.pb-10 { padding-bottom: 10px; }
+.pl-10 { padding-left: 10px; }
+
+.pt-15 { padding-top: 15px; }
+.pr-15 { padding-right: 15px; }
+.pb-15 { padding-bottom: 15px; }
+.pl-15 { padding-left: 15px; }
+
+.specBlock {
+    padding-left: 15px!important;
+}
+
 .col-left,
 .col-right {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
 .col-left > div > div {
     padding: 0 15px 0 0;
 }
@@ -49,21 +68,33 @@ html,body {
 .col-right {
     padding-left: 0!important;
 }
-
 .container .col-left h3 ,
 .container .col-right h3 {
     margin-bottom: 20px;
     text-transform: uppercase;
-    background: repeating-linear-gradient(-60deg, rgb(202, 202, 202) 0, rgb(202, 202, 202) 1px, transparent 1px, transparent 5px)!important;
+    background: repeating-linear-gradient(
+            -60deg,
+            rgb(150, 150, 150) 0,
+            rgb(150, 150, 150) 1px,
+            transparent 1px,
+            transparent 5px
+    )!important;
 
 }
 
 .container .col-left table {
     margin-bottom: 0;
 }
+
 .container .col-left table,
 .container .col-left table th {
     text-align: center;
+}
+
+.sectionTitle > span {
+    display: inline-block;
+    background: white;
+    padding-right: 5px;
 }
 
 .col-left > div {
@@ -84,6 +115,9 @@ html,body {
     margin-bottom: 0;
 }
 
+#skills>div>.progress>.progress-bar {
+    background-color: rgb(53, 60, 71)!important;
+}
 .col-right table th {
     width: 30px;
 }
@@ -121,7 +155,7 @@ html,body {
     z-index: 2;
     border-radius: 2px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 12px;
     color: black;
     background-color: white;
 }
